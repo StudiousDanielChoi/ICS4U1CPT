@@ -1,8 +1,8 @@
-//Done by Daniel Choi
+
 public class KW
 {
     //initialize instance variables
-
+    // done by Solomon
     private int lightBulbs;
     private int Wattage;
     private int Hours;
@@ -21,7 +21,8 @@ public class KW
     final int kilowattConversion = 1000;
     final double CO2Conversion = 0.18;
     final int treeConversion = 12;
-
+    
+    // done by Daniel
     // constructor method
     public KW(int lb, int wat, int hr, int daysPerMonth, int daysPerYear, int numStudents)
     {
@@ -43,7 +44,7 @@ public class KW
     }
 
     //accessor methods
-
+    //done by Daniel
     public int getKiloPerDay()
     {
         return kiloWattsPerDay;
@@ -80,7 +81,7 @@ public class KW
     }
 
     //modifier methods
-
+    //done by Daniel
     public void changeLightbulb(int changedLightBulbs)
     {
         lightBulbs = changedLightBulbs;

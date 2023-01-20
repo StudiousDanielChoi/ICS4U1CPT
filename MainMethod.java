@@ -59,7 +59,3 @@ public class MainMethod
         System.out.println(stfxKW.toString());
     }
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms

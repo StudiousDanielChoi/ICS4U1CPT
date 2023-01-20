@@ -24,6 +24,7 @@ public class MainMethod
 
         System.out.println(loyolaKW.toString());
         
+        //done by Daniel
         KW gonzagaKW = new KW(1324, 40, 6, 21, 254, 1503);
         System.out.println("This is the amount of kilowatts per day for Loyola.");
         System.out.println(gonzagaKW.getKiloPerDay());
@@ -40,6 +41,7 @@ public class MainMethod
 
         System.out.println(gonzagaKW.toString());
         
+        //done by Solomon
         KW stfxKW = new KW(3202, 40, 6, 21, 254, 2321);
         System.out.println("This is the amount of kilowatts per day for Loyola.");
         System.out.println(stfxaKW.getKiloPerDay());

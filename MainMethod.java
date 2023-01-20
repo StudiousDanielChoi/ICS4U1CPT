@@ -57,7 +57,7 @@ public class MainMethod
         
         // prompting accessor methods, showing the value  and what it stands for
         System.out.println("This is the amount of kilowatts per day for Loyola.");
-        System.out.println(stfxaKW.getKiloPerDay());
+        System.out.println(stfxKW.getKiloPerDay());
         System.out.println("This is the amount of kilowatts per month for Loyola.");
         System.out.println(stfxKW.getKiloPerMonth());
         System.out.println("This is the amount of kilowatts per year for Loyola.");

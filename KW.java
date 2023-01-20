@@ -1,3 +1,4 @@
+//Done by Daniel Choi
 public class KW
 {
     //initialize instance variables

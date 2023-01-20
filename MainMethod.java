@@ -2,6 +2,7 @@ public class MainMethod
 {
     public static void main(String args[])
     {
+        //done by Solomon
         KW loyolaKW = new KW(500, 20, 6, 21, 254, 1092);
 
         System.out.println("This is the amount of kilowatts per day for Loyola.");

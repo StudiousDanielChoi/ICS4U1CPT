@@ -32,15 +32,7 @@ public class KW
         dayPerMonth = daysPerMonth;
         dayPerYear = daysPerYear;
         numberStudents = numStudents;
-        kiloWatts = (lightBulbs * Wattage)/ kilowattConversion;
-        kiloWattsPerDay = kiloWatts * Hours;
-        kiloWattsPerMonth = kiloWattsPerDay * dayPerMonth;
-        kiloWattsPerYear = kiloWattsPerDay * dayPerYear;
-        CO22PerYear = kiloWattsPerYear * CO2Conversion;
-        CO2PerStudent = CO22PerYear / numberStudents;
-        double CO2Displaced  = CO22PerYear / treeConversion;
-        Math.round(CO2Displaced);
-        trees = 1 + (int)CO2Displaced;
+        reCalculator();
     }
 
     //accessor methods

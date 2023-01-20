@@ -1,4 +1,3 @@
-
 public class KW
 {
     //initialize instance variables
